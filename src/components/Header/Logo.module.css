@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logoText {
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.logoTextVPN {
+  font-weight: bold;
+}

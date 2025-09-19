@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Rubik'; /* Название шрифта, которое вы будете использовать в CSS */
+  src: url('/fonts/Rubik-VariableFont_wght.ttf') format('woff');
+  font-style: normal;
+}
+
+body {
+  font-family: 'Rubik';
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  background-color: #fff;
+}
+
+h1 {
+  color: #0b132a;
+}

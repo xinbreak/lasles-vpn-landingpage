@@ -1,0 +1,16 @@
+.downloadButton {
+  background-color: transparent;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  color: #f53855;
+  padding: 13px 45px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.downloadButton:hover {
+  background-color: #f53855;
+  transition: 0.3s;
+  color: #fff;
+}

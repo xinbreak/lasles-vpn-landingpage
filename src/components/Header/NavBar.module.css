@@ -1,0 +1,7 @@
+.navBar {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  list-style: none;
+}

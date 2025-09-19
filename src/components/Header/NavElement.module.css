@@ -1,0 +1,24 @@
+.navElement {
+  position: relative;
+  cursor: pointer;
+}
+
+.navElement::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: #f53855;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.32s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.navElement:hover::after,
+.navElement:focus::after {
+  transform: scaleX(1);
+}
