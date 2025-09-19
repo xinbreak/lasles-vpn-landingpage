@@ -1,0 +1,16 @@
+.getStartedButton {
+  padding: 13px 75px;
+  color: #fff;
+  background-color: #f53838;
+  border: 0;
+  border-radius: 10px;
+  transition: 0.8s;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.getStartedButton:hover {
+  box-shadow: 0 8px 10px 0 #f5383866;
+  transform: scale(1.1);
+  transition: 0.8s;
+}
