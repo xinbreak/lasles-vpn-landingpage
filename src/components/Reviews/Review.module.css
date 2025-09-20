@@ -1,0 +1,40 @@
+.reviewBlock {
+  margin-top: 40px;
+  padding: 20px;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.headerOfReview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nameAndLocation {
+  margin-left: 10px;
+  width: 70%;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.location {
+  margin: 0;
+}
+
+.rate {
+  color: #0b132a;
+}
+
+.mainText {
+  color: #0b132a;
+}
+
+.reviewBlock:last-child {
+  margin: 30px auto;
+}

@@ -5,6 +5,7 @@ import AboutCounter from './components/AboutCounter/AboutCounter'
 import Features from './components/Features/Features'
 import Pricing from './components/Pricing/Pricing'
 import Testimonials from './components/Testimonials/Testimonials'
+import Reviews from './components/Reviews/Reviews'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <Pricing />
       <Testimonials />
+      <Reviews />
     </>
   )
 }
