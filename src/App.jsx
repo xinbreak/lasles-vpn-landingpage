@@ -3,6 +3,7 @@ import About from './components/About/About'
 import Header from './components/Header/Header'
 import AboutCounter from './components/AboutCounter/AboutCounter'
 import Features from './components/Features/Features'
+import Pricing from './components/Pricing/Pricing'
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <About />
       <AboutCounter />
       <Features />
+      <Pricing />
     </>
   )
 }

@@ -1,0 +1,37 @@
+.card {
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardName {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.cardListItem {
+  display: flex;
+}
+
+.featureCardText {
+  margin-left: 10px;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: 500;
+  margin-block-start: auto;
+}

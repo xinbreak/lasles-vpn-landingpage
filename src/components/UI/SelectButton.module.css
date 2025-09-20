@@ -1,0 +1,17 @@
+.selectPlanButton {
+  padding: 13px 63px;
+  color: #f53838;
+  border: 2px solid #f53838;
+  border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.selectPlanButton:hover {
+  background-color: #f53838;
+  color: #fff;
+  transition: 0.3s;
+  transform: scale(1.1);
+  box-shadow: 0px 16px 8px -13px rgba(245, 56, 56, 0.4);
+}
