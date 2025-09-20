@@ -1,0 +1,28 @@
+.featuresContainer {
+  padding: 50px 100px;
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.mainTitle {
+  line-height: 50px;
+  font-size: 35;
+  font-weight: 500;
+}
+
+.featuresText {
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+}

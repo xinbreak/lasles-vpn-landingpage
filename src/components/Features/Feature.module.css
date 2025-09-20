@@ -1,0 +1,8 @@
+.featureText {
+  margin-left: 10px;
+}
+
+.listElement {
+  display: flex;
+  align-items: center;
+}
