@@ -1,0 +1,7 @@
+.abtCntContainer {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: #fff;
+  margin: 50px 110px;
+}

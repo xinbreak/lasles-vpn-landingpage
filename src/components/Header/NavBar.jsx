@@ -6,8 +6,8 @@ const items = ['About', 'Features', 'Pricing', 'Testimonials', 'Help']
 export default function NavBar() {
   return (
     <ul className={styles.navBar}>
-      {items.map((item) => (
-        <NavElement text={item} />
+      {items.map((item, index) => (
+        <NavElement key={index} text={item} />
       ))}
     </ul>
   )
