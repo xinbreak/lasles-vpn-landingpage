@@ -1,7 +1,7 @@
 import NavElement from './NavElement'
 import styles from './NavBar.module.css'
 
-const items = ['About', 'Features', 'Pricing', 'Testimonials', 'Help']
+const items = ['About', 'Features', 'Pricing', 'Testimonials', 'Reviews']
 
 export default function NavBar() {
   return (
