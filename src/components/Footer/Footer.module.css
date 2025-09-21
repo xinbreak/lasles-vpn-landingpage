@@ -1,0 +1,21 @@
+.footerContainer {
+  padding: 100px 110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mainText,
+.footerLicense {
+  font-weight: 300;
+  width: 50%;
+}
+
+.mainTextVPN {
+  font-weight: 500;
+}

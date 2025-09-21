@@ -1,0 +1,16 @@
+.title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.earnMoneyListItem {
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 300;
+}
+
+.earnMoneyListItem:hover {
+  transition: 0.3s;
+  color: #20242a;
+}
